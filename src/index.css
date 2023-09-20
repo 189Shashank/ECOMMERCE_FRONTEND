@@ -1,0 +1,103 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;1,400;1,700&family=Poppins:ital,wght@1,300;1,400;1,500&display=swap'); */
+
+/* font-family: 'Playfair Display', serif;
+font-family: 'Poppins', sans-serif; */
+
+/* heading
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@1,300;1,400;1,500&display=swap'); */
+
+/* font-family: 'Playfair Display', serif;
+font-family: 'Poppins', sans-serif; */
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.navbar{
+  font-family: 'Poppins', sans-serif;
+  background-image: linear-gradient(0deg,rgb(46, 81, 255) 0%,rgb(252, 252, 255) 100%);
+  font-size: 18px;
+  line-height: 28px;
+  text-transform: uppercase;
+  box-shadow: 0 8px 6px -6px gray;
+  --webkit-box-shadow: 0 8px 6px -6px gray;
+  position: sticky;
+  top:0;
+  z-index: 100;
+}
+
+.nav-link{
+  font-weight: 900 !important;
+  color:rgb(0, 0, 0);
+}
+.nav-link:hover{
+  color:rgb(255, 255, 255);
+  border-bottom: 3px solid rgb(236, 236, 252);
+}
+
+
+.navbar-brand{
+  font-weight: 900;
+  font-size: 25px;
+  color: rgb(0, 0, 0);
+}
+
+.footer{
+  height:13vh;
+  color:white;
+  padding: 10px;
+  background-color: black;
+  display:flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content: center;
+}
+
+.footer a{
+ text-decoration: none;
+ color: white;
+ padding: 10px;
+}
+.footer a:hover{
+  color:blue;
+}
+
+/*=================================Page Not Found ================*/
+.pnf{
+  display:flex;
+  min-height: 65vh;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+}
+
+.pnf-title{
+  font-size:100px;
+  font-weight:700;
+}
+.pnf-heading{
+font-weight:normal;
+}
+.pnf-btn{
+  color: white;
+  background-color: black;
+  border: 1px solid black;
+  text-decoration: none;
+  padding: 10px;
+  margin-top:10px;
+}
+.pnf-btn:hover{
+  background-color: blue;
+}
+
+/*=====================*/
+.product-link{
+  text-decoration: none !important;
+  color:black !important;
+}
+.product-image{
+  aspect-ratio: 16/9;
+  object-fit: contain;
+}
